@@ -14,6 +14,8 @@ html {
 :root {
   --main_color: #000000;
   --secondary_color: #8b1a48;
+  /* --secondary_color_light:#ca648d; */
+  --secondary_color_light:#c22564;
 }
 
 .logo{
@@ -402,7 +404,7 @@ a:focus {
 }
 #navbar .nav-link:hover, #navbar .nav-link:focus,
 #navbar .active .nav-link {
-  color: var(--secondary_color);
+  color: var(--secondary_color_light);
 }
 #navbar .btn {
   padding: 0.7rem 1.5rem 0.5rem;
