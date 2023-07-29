@@ -1449,6 +1449,28 @@ h3.quote::before {
   padding-top: 20px;
 }
 
+.team{
+  padding-top: 20px;
+}
+
+.service-class{
+  padding-top: 20px;
+}
+
+.about-class{
+  padding-top: 20px;
+}
+
+.bg-video{
+  height: 400px;
+  object-fit:cover;
+  object-position: 50% 0;
+}
+
+.footer-contact{
+  padding-top: 5px;
+}
+
 @media only screen and (max-width: 800px) {
   .big-screen{
     display: none;

@@ -110,7 +110,8 @@ function changeClass(id) {
 
 	var x = document.getElementById(id)
 
-	x.classList.toggle("ti-angle-down");
+	x.classList.toggle("fa-angle-up");
+	x.classList.toggle("fa-angle-down");
 
 	} 
 
