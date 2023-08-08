@@ -1462,7 +1462,7 @@ h3.quote::before {
 }
 
 .bg-video{
-  height: 400px;
+  height:max-content;
   object-fit:cover;
   object-position: 50% 0;
 }
@@ -1482,4 +1482,76 @@ h3.quote::before {
     display: none;
   }
 }
+
+.purple_bar{
+  height:40px;
+  background-color: var(--secondary_color);
+  display:flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content:space-between;
+}
+
+.rectangles{
+  position:flex;
+  width: 100%;
+  height: fit-content;
+  flex-flow: row;
+
+}
+
+.black_rectangle{
+  background-color: #000;
+  height: 60px;
+  width: 200px;
+  transform: skew(30deg);
+  outline-color: #ffffff;
+  outline-width: 5px;
+  outline-style:solid;
+  margin: 30px;
+  padding: 30px;
+}
+
+.video-bg{
+  width: 100%;
+}
+
+.video-bg--xl,
+.video-bg--lg,
+.video-bg--md,
+.video-bg--sm,
+.video-bg--xs {
+  display: none;
+}
+
+@media (min-width: 1440px) {
+  .video-bg--xl{
+    display: block;
+  }
+}
+
+@media (min-width: 1080px) and (max-width: 1439px) {
+  .video-bg--lg{
+    display: block;
+  }
+}
+
+@media (min-width: 720px) and (max-width: 1079px) {
+  .video-bg--md{
+    display: block;
+  }
+}
+
+@media (min-width: 650px) and (max-width: 719px) {
+  .video-bg--sm{
+    display: block;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 649px) {
+  .video-bg--xs{
+    display: block;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
