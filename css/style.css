@@ -19,7 +19,7 @@ html {
 }
 
 .logo{
-  height: 100px;
+  height: 56px;
 }
 
 body {
@@ -395,11 +395,11 @@ a:focus {
 }
 #navbar .nav-link {
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
+  /* font-weight: 500; */
   color: #fff;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-size: 14px;
-  letter-spacing: 0.5px;
+  /* letter-spacing: 0.5px; */
   transition: all 0.25s ease;
 }
 #navbar .nav-link:hover, #navbar .nav-link:focus,
@@ -1248,6 +1248,7 @@ h3.quote::before {
 
 .footer {
   padding-bottom: 10px;
+  padding-top: 30px;
 }
 .footer .copyright a {
   font-weight: 600;
@@ -1420,6 +1421,10 @@ h3.quote::before {
 
 /* Not from Template*/
 
+.about-info-item{
+  padding-top: 80px;
+}
+
 .service-title{
   border-bottom: solid;
   border-color: var(--secondary_color);
@@ -1484,7 +1489,7 @@ h3.quote::before {
 }
 
 .purple_bar{
-  height:40px;
+  height:20px;
   background-color: var(--secondary_color);
   display:flex;
   flex-wrap: nowrap;
@@ -1502,14 +1507,13 @@ h3.quote::before {
 
 .black_rectangle{
   background-color: #000;
-  height: 60px;
+  height: 20px;
   width: 200px;
   transform: skew(30deg);
   outline-color: #ffffff;
   outline-width: 5px;
   outline-style:solid;
   margin: 30px;
-  padding: 30px;
 }
 
 .video-bg{

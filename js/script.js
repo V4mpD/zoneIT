@@ -106,6 +106,8 @@
 
 })(jQuery);
 
+//Service collapse button icon switcher
+
 function changeClass(id) {
 
 	var x = document.getElementById(id)
@@ -114,4 +116,9 @@ function changeClass(id) {
 	x.classList.toggle("fa-angle-down");
 
 	} 
+
+
+//get current year
+
+document.querySelector("#year").textContent = new Date().getFullYear();
 
