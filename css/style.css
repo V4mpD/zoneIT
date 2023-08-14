@@ -1516,6 +1516,16 @@ h3.quote::before {
   margin: 30px;
 }
 
+.quote{
+  transform-origin: 50% 50%;
+}
+
+.center-quote{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .video-bg{
   width: 100%;
 }
