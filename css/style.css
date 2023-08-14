@@ -852,6 +852,7 @@ ul.dropdown-menu li {
 .contact-form-wrap .form-group {
   padding-bottom: 15px;
   margin: 0px;
+
 }
 .contact-form-wrap .form-group .form-control {
   background: #f5f8f9;
@@ -1516,14 +1517,18 @@ h3.quote::before {
   margin: 30px;
 }
 
-.quote{
-  transform-origin: 50% 50%;
+.section-contact{
+  margin-top: 30px;
+  padding-top: none;
 }
 
 .center-quote{
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-bottom: 30px;
+  margin-top: none;
+  padding-top: none;
 }
 
 .video-bg{
